@@ -25,5 +25,5 @@ public class PersonController {
     @GetMapping
     public List<Person> getAllPeople() {
         return personService.getAllPeople();
-    } 
+    }
 }
